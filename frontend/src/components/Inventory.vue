@@ -36,7 +36,7 @@
                     @click="save"
                     v-else
             >
-                Save
+                AddProduct
             </v-btn>
             <v-btn
                     color="deep-purple lighten-2"

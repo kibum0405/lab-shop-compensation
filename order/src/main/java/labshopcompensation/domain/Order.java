@@ -37,10 +37,10 @@ public class Order {
 
     @PrePersist
     public void onPrePersist() {
-        // Get request from Inventory
-        //labshopcompensation.external.Inventory inventory =
-        //    Application.applicationContext.getBean(labshopcompensation.external.InventoryService.class)
-        //    .getInventory(/** mapping value needed */);
+        // Get request from Order
+        //labshopcompensation.external.Order order =
+        //    Application.applicationContext.getBean(labshopcompensation.external.OrderService.class)
+        //    .getOrder(/** mapping value needed */);
 
     }
 

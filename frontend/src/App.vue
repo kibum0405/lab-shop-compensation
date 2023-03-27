@@ -102,18 +102,24 @@
                             </v-list-item>
 
                             <v-card-actions>
-                                <v-btn 
-                                    class="mx-auto"
-                                    outlined
-                                    rounded
-                                    key="orders"
-                                    to="/orders"
-                                    @click="changeUrl()"
-                                    color="deep-purple lighten-2"
-                                    style="font-weight:500; font-size:20px; padding:15px; border:solid 2px;"
-                                >
-                                    Order
-                                </v-btn>
+                                <v-tooltip bottom>
+                                    <template v-slot:activator="{ on }">
+                                        <v-btn 
+                                            v-on="on"
+                                            class="mx-auto"
+                                            outlined
+                                            rounded
+                                            key="orders"
+                                            to="/orders"
+                                            @click="changeUrl()"
+                                            color="deep-purple lighten-2"
+                                            style="font-weight:500; font-size:20px; padding:15px; border:solid 2px; max-width:250px; overflow:hidden"
+                                        >
+                                            Order
+                                        </v-btn>
+                                    </template>
+                                    <span>Order</span>
+                                </v-tooltip>
                             </v-card-actions>
                         </v-card>
 
@@ -132,18 +138,24 @@
                             </v-list-item>
 
                             <v-card-actions>
-                                <v-btn 
-                                    class="mx-auto"
-                                    outlined
-                                    rounded
-                                    key="inventories"
-                                    to="/inventories"
-                                    @click="changeUrl()"
-                                    color="deep-purple lighten-2"
-                                    style="font-weight:500; font-size:20px; padding:15px; border:solid 2px;"
-                                >
-                                    Inventory
-                                </v-btn>
+                                <v-tooltip bottom>
+                                    <template v-slot:activator="{ on }">
+                                        <v-btn 
+                                            v-on="on"
+                                            class="mx-auto"
+                                            outlined
+                                            rounded
+                                            key="inventories"
+                                            to="/inventories"
+                                            @click="changeUrl()"
+                                            color="deep-purple lighten-2"
+                                            style="font-weight:500; font-size:20px; padding:15px; border:solid 2px; max-width:250px; overflow:hidden"
+                                        >
+                                            Inventory
+                                        </v-btn>
+                                    </template>
+                                    <span>Inventory</span>
+                                </v-tooltip>
                             </v-card-actions>
                         </v-card>
 
@@ -162,18 +174,24 @@
                             </v-list-item>
 
                             <v-card-actions>
-                                <v-btn 
-                                    class="mx-auto"
-                                    outlined
-                                    rounded
-                                    key="deliveries"
-                                    to="/deliveries"
-                                    @click="changeUrl()"
-                                    color="deep-purple lighten-2"
-                                    style="font-weight:500; font-size:20px; padding:15px; border:solid 2px;"
-                                >
-                                    Delivery
-                                </v-btn>
+                                <v-tooltip bottom>
+                                    <template v-slot:activator="{ on }">
+                                        <v-btn 
+                                            v-on="on"
+                                            class="mx-auto"
+                                            outlined
+                                            rounded
+                                            key="deliveries"
+                                            to="/deliveries"
+                                            @click="changeUrl()"
+                                            color="deep-purple lighten-2"
+                                            style="font-weight:500; font-size:20px; padding:15px; border:solid 2px; max-width:250px; overflow:hidden"
+                                        >
+                                            Delivery
+                                        </v-btn>
+                                    </template>
+                                    <span>Delivery</span>
+                                </v-tooltip>
                             </v-card-actions>
                         </v-card>
 

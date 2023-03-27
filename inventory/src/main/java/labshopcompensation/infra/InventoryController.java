@@ -17,5 +17,4 @@ public class InventoryController {
 
     @Autowired
     InventoryRepository inventoryRepository;
-    // keep
 }

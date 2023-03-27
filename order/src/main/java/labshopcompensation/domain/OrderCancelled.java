@@ -24,6 +24,4 @@ public class OrderCancelled extends AbstractEvent {
     public OrderCancelled() {
         super();
     }
-    // keep
-
 }

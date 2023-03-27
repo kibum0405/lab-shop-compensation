@@ -1,0 +1,24 @@
+.aggre-gate-root-card-content-style {
+    width:100%;
+}
+
+.aggre-gate-root-typography-style {
+    margin-bottom: 1.5rem;
+}
+
+.aggre-gate-root-grid-style {
+    position:relative;
+}
+
+.aggre-gate-root-alert-style {
+    width: 100%;
+}
+
+.aggre-gate-root-container-style {
+    min-width: 450px; 
+    width:100%;
+}
+
+.aggre-gate-root-card-style {
+    max-width:100%;
+}

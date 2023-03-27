@@ -17,5 +17,4 @@ public class DeliveryController {
 
     @Autowired
     DeliveryRepository deliveryRepository;
-    // keep
 }

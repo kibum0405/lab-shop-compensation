@@ -41,7 +41,8 @@
                     @click="save"
                     v-else
             >
-                Save
+                Order
+                Cancel
             </v-btn>
             <v-btn
                     color="deep-purple lighten-2"

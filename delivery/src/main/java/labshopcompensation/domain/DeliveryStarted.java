@@ -21,6 +21,4 @@ public class DeliveryStarted extends AbstractEvent {
     public DeliveryStarted() {
         super();
     }
-    // keep
-
 }

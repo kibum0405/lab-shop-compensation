@@ -1,0 +1,13 @@
+.index-card-speed-dial {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.index-card-grid {
+    position: relative;
+}
+
+.index-card-grid-2 {
+    padding: 2rem;
+}

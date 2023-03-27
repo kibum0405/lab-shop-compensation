@@ -40,8 +40,8 @@ logging:
     org.springframework.cloud: debug
 
 api:
-  url:
-    inventory: localhost:8082
+  url: localhost:8081
+
 
 server:
   port: 8081
@@ -73,6 +73,6 @@ spring:
           contentType: application/json
 
 api:
-  url:
-    inventory: inventory:8080
+  url: order:8080
+
 

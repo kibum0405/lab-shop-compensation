@@ -78,6 +78,4 @@ public class AbstractEvent {
     public boolean validate() {
         return getEventType().equals(getClass().getSimpleName());
     }
-    // keep
-
 }

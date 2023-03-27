@@ -53,6 +53,4 @@ public class PolicyHandler {
         // Sample Logic //
         Inventory.increaseStock(event);
     }
-    // keep
-
 }

@@ -1,0 +1,25 @@
+.custom-component-margin {
+    margin: 0 -15px 0 -15px;
+  }
+  
+  .custom-img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 5px;
+    top: 5px;
+  }
+  
+  .custom-icon {
+    color: grey lighten-1;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  .deep-purple-btn {
+    color: deep-purple lighten-2;
+    text-decoration: none;
+  }
